@@ -1,0 +1,24 @@
+{
+	"name": "demo-rome",
+	"version": "1.0.0",
+	"private": true,
+	"keywords": [],
+	"author": "Michaël Vanderheyden <hello@th3s4mur41.me> (https://th3s4mur41.me)",
+	"license": "MIT",
+	"homepage": "https://github.com/Th3S4mur41/demo-rome",
+	"funding": "https://github.com/sponsors/Th3S4mur41",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Th3S4mur41/demo-rome.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Th3S4mur41/demo-rome/issues"
+	},
+	"scripts": {
+		"lint": "rome ci .",
+		"lint:fix": "rome format --write . && rome check --apply ."
+	},
+	"devDependencies": {
+		"rome": "^12.1.2"
+	}
+}
